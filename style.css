@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #262626;
+}
+
+#main{
+    padding:0px 40px;
+    width: 100%;
+}
+
+#nav{
+    padding: 10px 40px;
+    height: 70px;
+    /* padding-right: 60px; */
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 680px; */
+    background-color: #262626;
+    width: 100%;
+}
+
+#nleft img{
+    height: 38px;
+}
+
+#nright{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#nright #home{
+    color: #C86733;
+}
+
+#nright h2{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #DBC8A9;
+}
+
+#page1{
+    /* margin-top: 80px; */
+    padding-left: 40px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+   background-color: #262626;
+}
+
+#p1-lft{
+    width: 70%;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#p1-lft h1{
+   width: 80%;
+   font-size: 100px;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: #C86733;
+   line-height: 100px;
+}
+
+#p1-lft h2{
+    width: 65%;
+    font-size: 55px;
+    font-weight: 900;
+    color: #DBCDBD;
+    line-height: 55px;
+}
+
+#p1-lft p{
+    width: 75%;
+    font-size: 20px;
+    color: #B8AB96;
+}
+
+#btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: baseline;
+    padding-right: 50px;
+}
+
+#btn button{
+    width: 50%;
+    padding: 8px 85px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    border: none;
+}
+
+#btn1:hover{
+    background-color: #DBCDBD;
+    color: #262626;
+}
+
+#btn2:hover{
+    background-color: #C86733;
+    color: white;
+}
+
+#btn1{
+    background-color: #C86733;
+    color: #DBC8A9;
+}
+
+
+#btn2{
+    background-color: #DBCDBD;
+}
+
+#p1-rgt{
+   width: 39%;
+    height:  100vh;
+    background-color: rgb(114, 46, 46);
+    /* background: url(https://dede-digital.com/wp-content/uploads/2023/07/Profilbild_Desiree_dede-digital-marketing_Home-Page-komprimiert.jpg);
+    background-size: cover; */
+}
+
+
+#p1-rgt img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+#page2{
+    margin-top: 17%;
+    display: flex;
+    /* gap: 120px; */
+    justify-content: space-between;
+    /* background-color: firebrick; */
+}
+
+#pg2-lft{
+    width: 50%;
+}
+
+.line1{
+    margin-bottom: 15px     ;
+    width: 210px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.heading{
+    font-size: 100px;
+   font-weight: 900;
+   letter-spacing: 2px;
+   color: #C86733;
+   line-height: 100px;
+}
+
+.line2{
+    margin-bottom: 15px     ;
+    width: 160px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #fff;
+} 
+
+#pg2-rgt{
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    gap: 58px;
+    /* justify-content: space-between; */
+}
+
+.steps h3{
+    width: 85%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #b9ae9b;
+    margin-bottom: 20px;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+.steps h1{
+    font-size: 150px;
+    margin-bottom: 20px;
+}
+
+.steps p{
+    /* width: 65%; */
+    font-size: 20px;
+    font-weight: 300;
+    color: #B8AB96;
+}
+
+.details{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    width: 700px;
+    height: 500px;
+    /* background-color: goldenrod; */
+    border: 1px solid white;
+}
+
+.cd-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cd-left h1{
+    color: #DBCDBD;
+}
+
+.cd-left button{
+    width: 60%;
+    padding: 15px 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #DBC8A9;
+    background-color: transparent;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid #DBC8A9;
+}
+
+#cd-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cd-left button:hover{
+    background-color: #C86733;
+
+}
+
+#ds{
+    width: 55%;
+}
+
+
+#cd-right{
+    transition: all ease 2s;
+    width: 50%;
+    height: 100%;
+    background: url(https://dede-digital.com/wp-content/uploads/2023/07/Angebot_Desiree_dede-digital-marketing-SEA_komprimiert-1024x894.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#cd-right:hover{
+    scale: 1.2;
+}
+
+#page4{
+    margin-top: 180px;
+}
+
+#page4 h1{
+    margin-top: 40px;
+}
+
+#pg4-div{
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#pg4-lft{
+   height: 800px;
+   width: 560px;
+  
+}
+
+#pg4-lft img{
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#pg4-rgt{
+    width: 40%;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#pg4-rgt h1{
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #DBCDBD;
+}
+
+#pg4-rgt h5{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #b9ae9b;
+    }
+
+#link{
+    margin-top: 40px;
+    width: 60px;
+    height: 50px;
+    background-color: #C86733;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+}    
+
+#link button{
+    padding: 0px 3px;
+    color: #C86733;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+}
+
+#link:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+#page5{
+    margin-top: 200px;
+}
+
+#page5 h1{
+    margin-top: 40px;
+}
+
+#whyus{
+    background-color: #262626;
+}
+
+.page6{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 400px; */
+    /* background-color: rebeccapurple; */
+    /* margin-bottom: 20px; */
+}
+
+.div2{
+    width: 46%;
+}
+
+.div1 h1{
+    font-size: 52px;
+    font-weight: 900;
+    color: #DBCDBD;
+}
+
+.div2 h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #DBCDBD;
+}
+
+#page7{
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #C86733;
+}
+
+#pg7-lft{
+    padding: 40px 0px;
+   width: 80%;
+   /* border-right:2px solid #DBCDBD; */
+}
+
+#pg7-rgt{
+    padding: 40px 20px;
+    width: 41%;
+    /* background-color: rgb(121, 101, 87); */
+}
+
+#pg7-lft h1{
+    width: 80%;
+    font-size: 100px;
+    font-weight: 900;
+    color: #DBCDBD;
+    letter-spacing: 1px;
+    line-height: 100px;
+}
+
+#pg7-rgt h2{
+    width: 83%;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #DBCDBD;
+}
+
+#pg7-rgt button{
+    margin-top: 70px;
+    padding: 5px 15px;
+    background-color: #262626;
+    color: #DBC8A9;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: none;
+}
+
+#pg7-rgt button:hover{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    background-color: #DBC8A9;
+    color: #262626;
+}
+
+body hr{
+   
+    border: 0.5px solid #b9ae9b ;
+}
+
+#footer{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+}
+
+#fleft{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#fleft img{
+    height: 20px;
+}
+
+#social{
+    display: flex;
+    gap: 20px;
+}
+
+#social i{
+    color: #ffffffc5;
+    font-size: 32px;
+}
+
+
+.fh1{
+    font-size: 22px;
+    font-weight: 600;
+    color: #DBCDBD;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#fmid h4{
+    color: #DBC8A9;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#fright{
+    width: 50%;
+}
+
+#fright input{
+    margin-top: 15px;
+    padding: 10px 10px;
+    padding-right: 100px;
+    font-size: 18px;
+    color: #dbcdbdab;
+    background-color: transparent;
+    border: none;
+}
+
+#mail{
+    width: 100%;
+    /* margin: 4px; */
+}
+
+#fright button{
+    margin-top: 10px;
+    padding: 7px 80px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #DBCDBD;
+    color: #262626be;
+    border: none;
+}
+
+#fright button:hover{
+    transition: all ease 0.5s;
+    cursor: pointer;
+    background-color: #C86733;
+    color: #DBCDBD;
+}
+
+#cpr{
+    background-color: #262626;
+}
+
+#copyrights{
+    width: 85%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social i:hover{
+    transition: all ease 0.5s;
+    scale: 0.9;
+    cursor: pointer;
+    color: #C86733;
+    /* -webkit-filter: contrast(0.5px); */
+}
+
+#copyrights h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #B8AB96;
+}
